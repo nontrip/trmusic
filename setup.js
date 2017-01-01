@@ -46,7 +46,7 @@ $(document).ready(function(){
     abso($('.slide'));
     abso($('#menubar'));
     $('#heading').css('padding-top', $(window).height()/2.4-$('#heading').height()/2)
-    $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/2)
+    $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/1.5)
     $('#description').css('margin-top', $(window).height()/2-$('#slide3_heading').height()-$('#description').height()/1.5)
   });
 
@@ -54,7 +54,7 @@ $(document).ready(function(){
     abso($('#menubar'));
     $('#heading').css('padding-top', $(window).height()/2.4-$('#heading').height()/2);
     $('#heading').css('margin-left', $(window).width()/2+$('#menubar').width()-$('#heading').width()/2);
-    $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/2);
+    $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/1.5);
     $('#description').css('margin-top', $(window).height()/2-$('#slide3_heading').height()-$('#description').height()/1.5);
 
   $("ol").on("click","a", function (event) {
