@@ -29,7 +29,7 @@ $(document).ready(function(){
           }
       });
 
-      $("ul li, #menu_heading").on("click","a", function (event) {
+      $("ul li, #menu_heading, ol").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
@@ -56,12 +56,5 @@ $(document).ready(function(){
     $('#heading').css('margin-left', $(window).width()/2+$('#menubar').width()-$('#heading').width()/2);
     $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/2);
     $('#description').css('margin-top', $(window).height()/2-$('#slide3_heading').height()-$('#description').height()/2);
-
-  $("ol").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
-    });
 
 });
