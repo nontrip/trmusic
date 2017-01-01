@@ -49,6 +49,9 @@ $(document).ready(function(){
     $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/2)
     $('#description').css('margin-top', $(window).height()/2-$('#slide3_heading').height()-$('#description').height()/2)
     $('#social_icons').css('margin-top', $(window).height()/2-$('#menu_heading').height()/2-$('#menu_nav').height()/2)
+    $('.album_cover').css('width', $(window).height()/2.5);
+    $('.album_cover').css('height', $(window).height()/2.5);
+    $('#album_covers').css('margin-left', $(window).width()/2+$('#menubar').width()/2-$('#album_covers').width()/2);
   });
 
     abso($('.slide'));
@@ -58,5 +61,8 @@ $(document).ready(function(){
     $('#description').css('margin-left', $(window).width()/2.5+$('#menubar').width()-$('#description').width()/2);
     $('#description').css('margin-top', $(window).height()/2-$('#slide3_heading').height()-$('#description').height()/2);
     $('#social_icons').css('margin-top', $(window).height()/2-$('#menu_heading').height()/2-$('#menu_nav').height()/2);
-
+    $('.album_cover').css('width', $(window).height()/2.5);
+    $('.album_cover').css('height', $(window).height()/2.5);
+    $('#album_covers').css('margin-left', $(window).width()/2+$('#menubar').width()/2-$('#album_covers').width()/2);
+    $('#album_covers').css('margin-top', $(window).height()/2-$('#release_heading').height()-$('#album_covers').height()/1.5)
 });

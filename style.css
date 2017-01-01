@@ -35,6 +35,26 @@ body,html{
   text-align: center;
 }
 
+#release_heading {
+  font-style: italic;
+  overflow: hidden;
+  margin-left: 19%;
+  padding-top: 5%;
+  font-size: 14px;
+}
+
+#album_covers {
+  display: inline-block;
+}
+
+.album_cover {
+  cursor: pointer;
+}
+
+#ac_2 {
+  padding-left: 30px;
+}
+
 #slide3 {
   background: url(img/bg2.jpg) no-repeat center center fixed;
   -webkit-box-shadow: inset 9999px 9999px 10px 9999px rgba(0,0,0,0.47);
