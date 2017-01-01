@@ -105,6 +105,10 @@ ul li {
 	font-size: 30px;
 }
 
+#social_icons {
+  margin-top: 115%;
+}
+
 ol {
   top: 50%;
   margin-top: -66px;
