@@ -111,6 +111,7 @@ ul li {
 
 .pad {
   padding-left: 15px;
+  cursor: pointer;
 }
 
 ol {
