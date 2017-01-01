@@ -105,8 +105,11 @@ ul li {
 	font-size: 30px;
 }
 
-#social_icons img{
+.social_icon{
   cursor: pointer;
+}
+
+.pad {
   padding-left: 15px;
 }
 
