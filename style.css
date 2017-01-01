@@ -105,8 +105,9 @@ ul li {
 	font-size: 30px;
 }
 
-#social_icons {
-  margin-top: 200px;
+#social_icons img{
+  cursor: pointer;
+  padding-left: 15px;
 }
 
 ol {
