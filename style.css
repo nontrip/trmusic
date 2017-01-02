@@ -109,9 +109,8 @@ body,html{
 	padding-top:35px;
 	padding-bottom:50px;
 	width: 450px;
-	float: left;
 	left: 50%;
-	position: absolute;
+  position: absolute;
   margin-top:30px;
 	margin-left: -260px;
   -moz-border-radius: 7px;
