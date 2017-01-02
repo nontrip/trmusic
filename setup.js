@@ -52,6 +52,7 @@ $(document).ready(function(){
     $('.album_cover').css('width', $(window).height()/2.5);
     $('.album_cover').css('height', $(window).height()/2.5);
     $('#album_covers').css('margin-left', $(window).width()/2+$('#menubar').width()/2-$('#album_covers').width()/2);
+    $('#form-main').css('margin-top', $(window).height()/5-$('#contact_heading').height()-$('#form-main').height());
   });
 
     abso($('.slide'));
@@ -64,5 +65,6 @@ $(document).ready(function(){
     $('.album_cover').css('width', $(window).height()/2.5);
     $('.album_cover').css('height', $(window).height()/2.5);
     $('#album_covers').css('margin-left', $(window).width()/2+$('#menubar').width()/2-$('#album_covers').width()/2);
-    $('#album_covers').css('margin-top', $(window).height()/2-$('#release_heading').height()-$('#album_covers').height()/1.5)
+    $('#album_covers').css('margin-top', $(window).height()/2-$('#release_heading').height()-$('#album_covers').height()/1.5);
+    $('#form-main').css('margin-top', $(window).height()/5-$('#contact_heading').height()-$('#form-main').height());
 });
