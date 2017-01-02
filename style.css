@@ -327,3 +327,15 @@ ol li {
 .active-slide{
 	background-color: #888;
 }
+
+@media (max-width: 910px) {
+  
+  #menubar {
+    display: none;
+  }
+
+  .album_cover {
+    width: 100px;
+    height: 100px;
+  }
+}
