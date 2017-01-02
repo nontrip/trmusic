@@ -91,6 +91,7 @@ $(document).ready(function(){
       $('#album_covers').css('margin-left', $(window).width()/2-$('#album_covers').width()/2);
       $('#album_covers').css('margin-top', $(window).height()/2-$('#release_heading').height()-$('#album_covers').height()/1.5);
       $('#form-main').css('margin-top', $(window).height()/5-$('#contact_heading').height()-$('#form-main').height());
+      $('#form-main').css('margin-left', -$(window).width()/5+$('#form-main').width()/2);
     }
   });
 
@@ -128,5 +129,6 @@ $(document).ready(function(){
       $('#album_covers').css('margin-left', $(window).width()/2-$('#album_covers').width()/2);
       $('#album_covers').css('margin-top', $(window).height()/2-$('#release_heading').height()-$('#album_covers').height()/1.5);
       $('#form-main').css('margin-top', $(window).height()/5-$('#contact_heading').height()-$('#form-main').height());
+      $('#form-main').css('margin-left', -$(window).width()/5+$('#form-main').width()/2);
     }
 });
