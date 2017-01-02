@@ -77,6 +77,7 @@ $(document).ready(function(){
       $('#album_covers').css('margin-top', $(window).height()/2-$('#release_heading').height()-$('#album_covers').height()/1.5);
       $('#form-main').css('margin-top', $(window).height()/5-$('#contact_heading').height()-$('#form-main').height());
       $('#form-div').css('margin-left', -$('#menubar').width());
+      $('#form-main').css('margin-left', -$(window).width()/5+$('#menubar').width()+$('#form-main').width()/2);
     }else {
       $('#heading').css('margin-left', $(window).width()/2-$('#heading').width()/2);
       $('#heading').css('padding-top', $(window).height()/2.4-$('#heading').height()/2)
