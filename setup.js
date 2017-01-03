@@ -35,7 +35,7 @@ $(document).ready(function(){
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-        if($(window).width()<415){
+        if($(window).width()<415 || $(window).height()<420){
           $('#hamb').animate({'margin-left': 50}, 900)
           $('#menubar').animate({'margin-left': -$('#menubar').width()}, 1000, function() {
             $('#menubar').css('display', 'none');
