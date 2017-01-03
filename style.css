@@ -428,7 +428,11 @@ ol li {
     font-size: 14px;
   }
 
-  #social_icons {
+  ul {
     margin-top: 20px;
+  }
+
+  #social_icons {
+    margin-top: 0px;
   }
 }

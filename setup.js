@@ -169,4 +169,9 @@ $(document).ready(function(){
     if($(window).height()<330) {
       $('#social_icons').css('margin-top', 25);
     }
+
+    $(window).scroll(function(){
+   if($('body').scrollTop()>0)
+        $('body').scrollTop(0);
+});
 });
