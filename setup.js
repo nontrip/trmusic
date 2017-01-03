@@ -63,8 +63,11 @@ $(document).ready(function(){
         $(this).animate({'margin-left': 50}, 900)
         $('#menubar').animate({'margin-left': -$('#menubar').width()}, 1000, function() {
           $('#menubar').css('display', 'none');
-
         })
+        if($(window).width()<415 || $(window).height()<420){
+          $('body').css('overflow', 'auto');
+          $('body').css('position', 'absolute');
+        }
         menubar=false;
       }
     });
