@@ -56,6 +56,8 @@ $(document).ready(function(){
         menubar=true;
         if($(window).width()<415 || $(window).height()<420){
           $('body').css('overflow', 'hidden');
+          $('body').css('position', 'fixed');
+          console.log('here');
         }
       } else {
         $(this).animate({'margin-left': 50}, 900)
@@ -170,8 +172,4 @@ $(document).ready(function(){
       $('#social_icons').css('margin-top', 25);
     }
 
-    $(window).scroll(function(){
-   if($('body').scrollTop()>0)
-        $('body').scrollTop(0);
-});
 });
