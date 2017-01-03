@@ -378,7 +378,7 @@ ol li {
   }
 
   #social_icons {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   #description {
@@ -424,5 +424,11 @@ ol li {
 
 /*small in horizontal */
 @media (max-width: 575px) and (max-height: 325px) {
+  #description {
+    font-size: 14px;
+  }
 
+  #social_icons {
+    margin-top: 20px;
+  }
 }

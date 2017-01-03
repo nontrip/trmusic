@@ -159,7 +159,10 @@ $(document).ready(function(){
       $('#form-main').css('margin-left', -$(window).width()/5+$('#form-main').width()/2);
     }
 
-    if($(window).height()<415){
+    if($(window).height()<415 && $(window).height()>330){
       $('#social_icons').css('margin-top', 50);
+    }
+    if($(window).height()<330) {
+      $('#social_icons').css('margin-top', 25);
     }
 });
