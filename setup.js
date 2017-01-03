@@ -53,16 +53,19 @@ $(document).ready(function(){
         $(this).animate({'margin-left': $('#menubar').width()}, 900)
         $('#menubar').animate({'margin-left': 0}, 1000);
         menubar=true;
+        if($(window).width()<415 || $(window).height()<420){
+          $('body').css('overflow', 'hidden');
       } else {
         $(this).animate({'margin-left': 50}, 900)
         $('#menubar').animate({'margin-left': -$('#menubar').width()}, 1000, function() {
           $('#menubar').css('display', 'none');
+          if($(window).width()<415 || $(window).height()<420){
+            $('body').css('overflow', 'auto');
         });
         menubar=false;
       }
     });
 
-    $('')
 
   function abso(el) {
     $(el).css({
